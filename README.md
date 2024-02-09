@@ -10,3 +10,6 @@ Make some assembly with unicycler
 ## unicycle_short_reads.sh
 
 ## unicycle_hybrid_reads.sh
+
+## merged_short_reads_all.sh
+Keep R1 and R2 in separate files
