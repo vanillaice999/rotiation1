@@ -1,6 +1,12 @@
 # rotiation1
 Matt
 
-# test123456
+## pass_merged_long_reads.sh
+merge long reads into one file with cat
 
-## test456789
+## unicycle_long_reads.sh
+Make some assembly with unicycler
+
+## unicycle_short_reads.sh
+
+## unicycle_hybrid_reads.sh
