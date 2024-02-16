@@ -6,7 +6,7 @@
 # Introduction of .sh file
 
 ## File Merging
-merging the reads file
+merging and assemblying the reads file
 ### pass_merged_long_reads.sh
 merge long reads into one file with cat
 ### merged_short_reads_all.sh
