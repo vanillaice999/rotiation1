@@ -32,6 +32,23 @@ introduction
 ### busco_mystery.sh
 introduction
 
+## prokka
+### prokka_genovi.sh
+introduction
+
+## miniasm
+### miniasm_mystery.sh
+introduction
+### minimap_miniasm_all.sh
+introduction
+
+## nanoplot
+Data quality control with nanoplot
+### nanoplot_env_setup.sh
+introduction
+### nanoplot_batch.sh
+introduction
+
 ## Genovi
 
 ### genovi_lastest.sh
