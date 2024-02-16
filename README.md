@@ -75,6 +75,6 @@ Unicycler expects external tools to be available in `$PATH`. If they aren't, you
 
 # Data used
 
-https://www.ncbi.nlm.nih.gov/nuccore/NZ_AOHU00000000.1
-https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000025685.1/
-https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_005406325.1/
+### https://www.ncbi.nlm.nih.gov/nuccore/NZ_AOHU00000000.1
+### https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000025685.1/
+### https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_005406325.1/
