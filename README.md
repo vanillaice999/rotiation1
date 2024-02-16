@@ -15,6 +15,8 @@ Make assembly of long reads with unicycler
 Make assembly of short reads with unicycler
 ### unicycle_hybrid_reads.sh
 Make assembly of hybrid reads with unicycler
+### mystery_unicycler_all.sh
+merge barcode file
 
 ## quast on the assemblies
 
