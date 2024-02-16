@@ -11,6 +11,9 @@ merging and assemblying the reads file
 merge long reads into one file with cat
 ### merged_short_reads_all.sh
 Keep R1 and R2 in separate files
+### assembly_stats_all.sh
+merging miniasm
+### assembly_stats_mystery.sh
 
 ## unicycler assembly
 Make some assembly with unicycler
