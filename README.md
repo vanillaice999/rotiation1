@@ -50,7 +50,7 @@ introduction
 introduction
 
 ## Genovi
-
+Generates circular genome representations with Genovi
 ### genovi_lastest.sh
 introduction
 
