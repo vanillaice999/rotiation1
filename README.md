@@ -39,31 +39,31 @@ The integrity of genome assembly was assessed using the BUSCO tool. BUSCO analys
 ## Busco
 
 ### busco_mystery.sh
-introduction
-### busco_mystery.sh
-introduction
+This file is used for genetic integrity assessment using the BUSCO tool in genome assembly. BUSCO analysis was performed on different samples (barcodes 01, 09, and 10 assembled using Unicycler and Flye), using haloferacales_odb10 as the reference database, and using BUSCO output to generate plots.
+### busco_script.sh
+BUSCO analysis of mixed Unicycler assembly, long-read Unicycler assembly and short-read Unicycler assembly was carried out, haloferacales_odb10 was used as reference database, and the graph is drawn
 
 ## prokka
 ### prokka_genovi.sh
-introduction
+Annotate and visualize the genome
 
 ## miniasm
 ### miniasm_mystery.sh
-introduction
+reassemble and count the genome. Reassemble the sequence of barcode09
 ### minimap_miniasm_all.sh
-introduction
+assemble long read data
 
 ## nanoplot
 Data quality control with nanoplot
 ### nanoplot_env_setup.sh
-introduction
+set up the nanoplot environment 
 ### nanoplot_batch.sh
-introduction
+Generate Nanoplot reports that grow read data
 
 ## Genovi
 Generates circular genome representations with Genovi
 ### genovi_lastest.sh
-introduction
+Visualize barcode01, barcode09, and barcode10 using the genovi command
 
 # Environnment
 ## unicycler
