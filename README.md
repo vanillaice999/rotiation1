@@ -27,13 +27,14 @@ Make assembly of hybrid reads with unicycler
 merge barcode file
 
 ## quast on the assemblies
+The quality of genome assembly was assessed. Use Quast to evaluate different types of assembly. Run Quast and specify the reference genome for long-path Miniasm assembly, long-read Unicycler assembly, short-read Unicycler assembly, and hybrid Unicycler assembly, respectively.
 
 ### Quast_all.sh
-introduction
+Use Quast to evaluate different types of assembly. Run Quast and specify the reference genome for long-path Miniasm assembly, long-read Unicycler assembly, short-read Unicycler assembly, and hybrid Unicycler assembly, respectively
 ### Quast_all2.sh
-introduction
+Quast is used to evaluate long-path Miniasm assembly, long-read Unicycler assembly, short-read Unicycler assembly, and hybrid Unicycler assembly.
 ### quast_mystery.sh
-introduction
+The integrity of genome assembly was assessed using the BUSCO tool. BUSCO analysis was performed on different samples of different assembly schemes, and haloferacales_odb10 was used as the reference database
 
 ## Busco
 
