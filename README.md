@@ -3,8 +3,10 @@
 * [Environnment](#Environnment)
 * [Data used](#Data-used)
 
-# Introduction of .sh file
 
+# Introduction of .sh file
+## Aim and expected outcome
+Genomic analysis includes identifying genomic changes, determining chromosome number and morphology, selecting appropriate read lengths, comparing mutation differences, and identifying biological functions that may be impaired. Through these analyses, it is possible to gain insight into the genomic characteristics of the samples
 ## File Merging
 merging and assemblying the reads file
 <br/>income:fastqs
