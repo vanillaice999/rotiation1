@@ -7,6 +7,7 @@
 # Introduction of .sh file
 ## Aim and expected outcome
 Genomic analysis includes identifying genomic changes, determining chromosome number and morphology, selecting appropriate read lengths, comparing mutation differences, and identifying biological functions that may be impaired. Through these analyses, it is possible to gain insight into the genomic characteristics of the samples.
+
 <br/>First, the assembly of short reads, long reads and mixed short reads and long reads of the genome data is carried out, aiming to obtain the assembled version of the genome at different quality levels. Subsequently, assembly quality control and the PILON POLISH process are carried out to improve the accuracy and integrity of the assembly. Each genome assembly is then annotated, labeled, and described for the genes and functional elements within it. After that, the differences between individual genome assemblies are compared, including comparisons of structure, variation, and rearrangement
 ## File Merging
 merging and assemblying the reads file
