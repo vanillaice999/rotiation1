@@ -7,8 +7,8 @@
 
 ## File Merging
 merging and assemblying the reads file
-<br/>income:fasta
-<br/>outcome:fasta
+<br/>income:fastqs
+<br/>outcome:fastqs
 ### pass_merged_long_reads.sh
 merge long reads into one file with cat
 ### merged_short_reads_all.sh
@@ -19,8 +19,8 @@ merging miniasm
 
 ## unicycler assembly
 Make some assembly with unicycler
-<br/>income:fasta
-<br/>outcome:fasta
+<br/>income:fastqs
+<br/>outcome:fastqs
 ### unicycle_long_reads.sh
 Make assembly of long reads with unicycler
 ### unicycle_short_reads.sh
@@ -32,8 +32,8 @@ merge barcode file
 
 ## quast on the assemblies
 The quality of genome assembly was assessed. Use Quast to evaluate different types of assembly. Run Quast and specify the reference genome for long-path Miniasm assembly, long-read Unicycler assembly, short-read Unicycler assembly, and hybrid Unicycler assembly, respectively.
-<br/>income:fasta
-<br/>outcome:fasta
+<br/>income:fastqs
+<br/>outcome:fastqs
 ### Quast_all.sh
 Use Quast to evaluate different types of assembly. Run Quast and specify the reference genome for long-path Miniasm assembly, long-read Unicycler assembly, short-read Unicycler assembly, and hybrid Unicycler assembly, respectively
 ### Quast_all2.sh
@@ -42,20 +42,20 @@ Quast is used to evaluate long-path Miniasm assembly, long-read Unicycler assemb
 The integrity of genome assembly was assessed using the BUSCO tool. BUSCO analysis was performed on different samples of different assembly schemes, and haloferacales_odb10 was used as the reference database
 
 ## Busco
-<br/>income:fasta
-<br/>outcome:fasta
+<br/>income:fastqs
+<br/>outcome:fastqs
 ### busco_mystery.sh
 This file is used for genetic integrity assessment using the BUSCO tool in genome assembly. BUSCO analysis was performed on different samples (barcodes 01, 09, and 10 assembled using Unicycler and Flye), using haloferacales_odb10 as the reference database, and using BUSCO output to generate plots.
 ### busco_script.sh
 BUSCO analysis of mixed Unicycler assembly, long-read Unicycler assembly and short-read Unicycler assembly was carried out, haloferacales_odb10 was used as reference database, and the graph is drawn
 
 ## prokka
-<br/>income:fasta
+<br/>income:fastqs
 ### prokka_genovi.sh
 Annotate and visualize the genome
 
 ## miniasm
-<br/>income:fasta
+<br/>income:fastqs
 <br/>outcome:paf
 ### miniasm_mystery.sh
 reassemble and count the genome. Reassemble the sequence of barcode09
@@ -64,8 +64,8 @@ assemble long read data
 
 ## nanoplot
 Data quality control with nanoplot
-<br/>income:fasta
-<br/>outcome:fasta
+<br/>income:fastqs
+<br/>outcome:fastqs
 ### nanoplot_env_setup.sh
 set up the nanoplot environment 
 ### nanoplot_batch.sh
