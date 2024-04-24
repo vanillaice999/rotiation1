@@ -126,6 +126,7 @@ Installation on Ubuntu (tested on Ubuntu 20.04):
     sudo apt-get update && sudo apt-get install -y pkg-config libfreetype6-dev libpng-dev python3-matplotlib
 
 ## busco
+conda create -n busco -c conda-forge -c bioconda busco=5.3.2
 
 ## prokka
 ### Mandatory
