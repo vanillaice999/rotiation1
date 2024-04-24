@@ -1,6 +1,6 @@
 # Contents
 * [Introduction of .sh file](#Introduction-of-.sh-file)
-* [Environnment](#Environnment)
+* [Environment and installation instructions](#Environment and installation instructions)
 * [Data used](#Data-used)
 
 
@@ -81,7 +81,7 @@ Generates circular genome representations with Genovi
 ### genovi_lastest.sh
 Visualize barcode01, barcode09, and barcode10 using the genovi command
 
-# Environnment
+# Environment and installation instructions
 ## unicycler
 * Linux or macOS
 * [Python](https://www.python.org/) 3.4 or later
